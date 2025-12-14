@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9785bc34-46a5-4311-8ff7-e50e929e22e2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Demo1Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/config/AiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/config/MySqlChatMemoryStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/AiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/TicketOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/entity/ChatMemoryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/entity/TicketOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/mapper/ChatMemoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/mapper/TicketOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/service/TicketOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/service/TooolsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/service/impl/TicketOrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/rag/terms-of-service.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index123.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/viewport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/Demo1ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forum/forum/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/.idea/artifacts/springTest_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/.idea/copyright/First.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/Hello1/src/main/java/com/example/hello1/controller/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/sky-take-out/sky-server/src/main/java/com/example/skyserver/controller/admin/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/Test/Deque1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/Test/Match.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/Test/test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/Test/test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/W18/IDCardValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/solve/NQueens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/solve/cf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/spring01/W813.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/spring01/W87.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/AlternatePrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/Hello.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/NumberPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/Split.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/W81.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/W81ErFen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/W82.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/W82InPut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/W82Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/W83MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/W83MyRunnable2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/W83MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/W83Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/W86.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/W86Hash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/dfs1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/养青梅.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/resources/Hello.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/resources/养青梅.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/springTest/src/main/java/com/example/springtest/controller/UserInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/springTest/src/main/java/com/example/springtest/controller/controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/springTest/src/main/java/com/example/springtest/mapper/UserInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/springTest/src/main/java/com/example/springtest/mapper/mapper" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/springTest/src/main/java/com/example/springtest/model/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/springTest/src/main/java/com/example/springtest/model/model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/springTest/src/main/java/com/example/springtest/service/UserInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/springTest/src/main/java/com/example/springtest/service/impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/springTest/src/main/java/com/example/springtest/service/service" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/springTest/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot/springTest/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/config/WebConfig$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/config/WebConfig$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/config/WebConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/controller/AuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/controller/ForumController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/controller/ForumController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/dao/CommentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/dao/CommentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/dao/PostRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/dao/PostRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/dao/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/dao/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/model/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/model/Comment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/model/Post.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/model/Post.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/service/CommentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/service/CommentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/service/PostService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/service/PostService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/config/WebConfig$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/config/WebConfig$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/config/WebConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/controller/AuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/controller/ForumController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/controller/ForumController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/dao/CommentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/dao/CommentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/dao/PostRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/dao/PostRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/dao/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/dao/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/model/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/model/Comment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/model/Post.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/model/Post.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/service/CommentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/service/CommentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/service/PostService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/service/PostService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/surefire-reports/2025-05-20T13-29-48_228.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/surefire-reports/TEST-com.example.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/surefire-reports/TEST-com.example.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/surefire-reports/TEST-com.example.TestConnection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/surefire-reports/TEST-com.example.TestConnection.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/surefire-reports/com.example.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/surefire-reports/com.example.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/surefire-reports/com.example.TestConnection.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/surefire-reports/com.example.TestConnection.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/test-classes/com/example/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/test-classes/com/example/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/test-classes/com/example/PasswordEncryptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/test-classes/com/example/PasswordEncryptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/forum/target/test-classes/com/example/TestConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/test-classes/com/example/TestConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot/a/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot/spring-start/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot/spring-start/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot/spring-start/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot/spring-start/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot/spring-start/mvnw.cmd" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../spring-boot" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="MavenRunConfiguration" name="Ticket01 [package]" />
+    </enabled-run-configurations>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\Learning program\Maven\apache-maven-3.9.9" />
+        <option name="localRepository" value="D:\Learning program\Maven\mvn-repository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\Learning program\Maven\apache-maven-3.9.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="340Nrpwpqv9F2ip27gtF3ua6itI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Demo1Application.executor": "Run",
+    "Application.Hello1Application.executor": "Run",
+    "Application.SpringTestApplication.executor": "Run",
+    "Application.Ticket01Application.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JUnit.Demo01ApplicationTests.executor": "Run",
+    "JUnit.Demo01ApplicationTests.testHello.executor": "Run",
+    "JUnit.Demo1ApplicationTests.Enbed.executor": "Run",
+    "JUnit.Demo1ApplicationTests.abcDeepSeek.executor": "Run",
+    "JUnit.Demo1ApplicationTests.contextLoads.executor": "Run",
+    "JUnit.Demo1ApplicationTests.demoChat.executor": "Run",
+    "JUnit.Demo1ApplicationTests.executor": "Run",
+    "JUnit.Demo1ApplicationTests.testDeepSeek.executor": "Run",
+    "JUnit.Demo1ApplicationTests.testEmbeddingStore.executor": "Run",
+    "JUnit.Demo1ApplicationTests.testImage.executor": "Run",
+    "JUnit.Demo1ApplicationTests.testMySQL.executor": "Run",
+    "JUnit.Demo1ApplicationTests.testRAG.executor": "Run",
+    "JUnit.Demo1ApplicationTests.testService.executor": "Run",
+    "JUnit.Demo1ApplicationTests.testTime.executor": "Run",
+    "JUnit.Demo1ApplicationTests1.testHello.executor": "Run",
+    "JUnit.Demo1ApplicationTests1.testMySQL.executor": "Run",
+    "JUnit.Ticket01ApplicationTests.executor": "Run",
+    "Maven.Ticket01 [clean].executor": "Run",
+    "Maven.Ticket01 [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.Demo1Application.executor": "Run",
+    "Spring Boot.Ticket01Application.executor": "Run",
+    "git-widget-placeholder": "my",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Learning program/IDEA/ID_Java/spring-boot/Hello1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Learning program\IDEA\ID_Java\Test\Ticket01\src\main\resources\rag" />
+      <recent name="D:\Learning program\IDEA\ID_Java\Test\Ticket01\src\main\resources\static" />
+      <recent name="D:\Learning program\IDEA\ID_Java\demo1\src\main\resources\rag" />
+      <recent name="D:\Learning program\IDEA\ID_Java\demo1\src\main\resources\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Learning program\IDEA\ID_Java\spring-boot\springTest\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Hello1Application">
+    <configuration name="Demo1Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.Demo1Application" />
+      <module name="demo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hello1Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.hello1.Hello1Application" />
+      <module name="Hello1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.hello1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ticket01Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ticket01.Ticket01Application" />
+      <module name="Ticket01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ticket01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo1ApplicationTests.testService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.Demo1ApplicationTests" />
+      <option name="METHOD_NAME" value="testService" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ticket01ApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ticket01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ticket01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ticket01" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ticket01.Ticket01ApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.a.AApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeepseekApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="deepseek" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.deepseek.DeepseekApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo1Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo1.Demo1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.Demo1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springtest.SpringTestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ticket01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Ticket01" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ticket01.Ticket01Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="demo1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="demo1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Hello1Application" />
+      <item itemvalue="Application.Demo1Application" />
+      <item itemvalue="Application.Ticket01Application" />
+      <item itemvalue="JUnit.Ticket01ApplicationTests" />
+      <item itemvalue="JUnit.Demo1ApplicationTests.testService" />
+      <item itemvalue="Spring Boot.Ticket01Application" />
+      <item itemvalue="Spring Boot.DeepseekApplication" />
+      <item itemvalue="Spring Boot.AApplication" />
+      <item itemvalue="Spring Boot.Demo1Application" />
+      <item itemvalue="Spring Boot.Demo1Application (1)" />
+      <item itemvalue="Spring Boot.SpringTestApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Hello1Application" />
+        <item itemvalue="Application.Ticket01Application" />
+        <item itemvalue="JUnit.Ticket01ApplicationTests" />
+        <item itemvalue="Application.Demo1Application" />
+        <item itemvalue="JUnit.Demo1ApplicationTests.testService" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9785bc34-46a5-4311-8ff7-e50e929e22e2" name="Changes" comment="" />
+      <created>1760346733858</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1760346733858</updated>
+      <workItem from="1760346734898" duration="1774000" />
+      <workItem from="1760350356715" duration="18524000" />
+      <workItem from="1760490953602" duration="2466000" />
+      <workItem from="1760508845707" duration="9045000" />
+      <workItem from="1760577231988" duration="6003000" />
+      <workItem from="1760594872334" duration="9547000" />
+      <workItem from="1760662883826" duration="6686000" />
+      <workItem from="1760681363729" duration="11515000" />
+      <workItem from="1760923896832" duration="2174000" />
+      <workItem from="1760927943232" duration="2518000" />
+      <workItem from="1760941324870" duration="2883000" />
+      <workItem from="1760945358083" duration="5659000" />
+      <workItem from="1761009520979" duration="6043000" />
+      <workItem from="1761016185241" duration="790000" />
+      <workItem from="1761027487719" duration="8081000" />
+      <workItem from="1761096967034" duration="6497000" />
+      <workItem from="1761113335894" duration="11442000" />
+      <workItem from="1761199298564" duration="5088000" />
+      <workItem from="1761205185586" duration="4614000" />
+      <workItem from="1761267420034" duration="8224000" />
+      <workItem from="1761285339297" duration="4898000" />
+      <workItem from="1761527556224" duration="420000" />
+      <workItem from="1761528465084" duration="337000" />
+      <workItem from="1761614701521" duration="22000" />
+      <workItem from="1763812883150" duration="1841000" />
+      <workItem from="1765538735911" duration="3906000" />
+      <workItem from="1765549777017" duration="1062000" />
+      <workItem from="1765627610906" duration="1867000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../Test/Ticket01/src/main/java/com/example/ticket01/service/ToolService.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
