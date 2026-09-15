@@ -35,6 +35,9 @@ public class ToolCallAgent extends ReActAgent {
     // 保存工具调用信息的响应结果（要调用那些工具）
     private ChatResponse toolCallChatResponse;
 
+    // 最近一次思考的文本，无需调用工具时作为最终回复
+    private String lastThinkResult = "";
+
     // 工具调用管理者
     private final ToolCallingManager toolCallingManager;
 
@@ -58,8 +61,8 @@ public class ToolCallAgent extends ReActAgent {
      */
     @Override
     public boolean think() {
-        // 1、校验提示词，拼接用户提示词
-        if (StrUtil.isNotBlank(getNextStepPrompt())) {
+        // 第一步直接回应用户；从第二步起才追加“下一步”规划提示，避免问候语被带进工具循环
+        if (getCurrentStep() > 1 && StrUtil.isNotBlank(getNextStepPrompt())) {
             UserMessage userMessage = new UserMessage(getNextStepPrompt());
             getMessageList().add(userMessage);
         }
@@ -69,7 +72,7 @@ public class ToolCallAgent extends ReActAgent {
         try {
             ChatResponse chatResponse = getChatClient().prompt(prompt)
                     .system(getSystemPrompt())
-                    .tools(availableTools)
+                    .toolCallbacks(availableTools)
                     .call()
                     .chatResponse();
             // 记录响应，用于等下 Act
@@ -81,6 +84,7 @@ public class ToolCallAgent extends ReActAgent {
             List<AssistantMessage.ToolCall> toolCallList = assistantMessage.getToolCalls();
             // 输出提示信息
             String result = assistantMessage.getText();
+            this.lastThinkResult = StrUtil.blankToDefault(result, "");
             log.info(getName() + "的思考：" + result);
             log.info(getName() + "选择了 " + toolCallList.size() + " 个工具来使用");
             String toolCallInfo = toolCallList.stream()
@@ -98,7 +102,8 @@ public class ToolCallAgent extends ReActAgent {
             }
         } catch (Exception e) {
             log.error(getName() + "的思考过程遇到了问题：" + e.getMessage());
-            getMessageList().add(new AssistantMessage("处理时遇到了错误：" + e.getMessage()));
+            this.lastThinkResult = "处理时遇到了错误：" + e.getMessage();
+            getMessageList().add(new AssistantMessage(this.lastThinkResult));
             return false;
         }
     }
@@ -123,13 +128,36 @@ public class ToolCallAgent extends ReActAgent {
         boolean terminateToolCalled = toolResponseMessage.getResponses().stream()
                 .anyMatch(response -> response.name().equals("doTerminate"));
         if (terminateToolCalled) {
-            // 任务结束，更改状态
             setState(AgentState.FINISHED);
+            if (StrUtil.isNotBlank(this.lastThinkResult)) {
+                return this.lastThinkResult;
+            }
+            return "";
         }
         String results = toolResponseMessage.getResponses().stream()
                 .map(response -> "工具 " + response.name() + " 返回的结果：" + response.responseData())
                 .collect(Collectors.joining("\n"));
         log.info(results);
-        return results;
+        // 聊天界面只展示简短过程，完整工具结果仍保留在对话历史里给模型继续推理
+        return toolResponseMessage.getResponses().stream()
+                .map(response -> toUserVisibleToolProgress(response.name(), response.responseData()))
+                .collect(Collectors.joining());
+    }
+
+    private String toUserVisibleToolProgress(String toolName, String responseData) {
+        if (toolName == null) {
+            return "";
+        }
+        return switch (toolName) {
+            case "searchWeb" -> "正在检索相关资料…\n";
+            case "generatePDF" -> {
+                if (responseData != null && responseData.toLowerCase().contains("error")) {
+                    yield "PDF 生成失败：" + responseData + "\n";
+                }
+                yield (responseData == null ? "正在生成 PDF 文件…\n" : responseData + "\n");
+            }
+            case "writeFile" -> (responseData == null ? "正在保存文件…\n" : responseData + "\n");
+            default -> "";
+        };
     }
 }

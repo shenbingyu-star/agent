@@ -1,5 +1,6 @@
 package com.yupi.yuaiagent.agent;
 
+import com.yupi.yuaiagent.agent.model.AgentState;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.extern.slf4j.Slf4j;
@@ -38,6 +39,14 @@ public abstract class ReActAgent extends BaseAgent {
             // 先思考
             boolean shouldAct = think();
             if (!shouldAct) {
+                // 不再空转剩余步数，把模型回复作为最终结果结束流
+                setState(AgentState.FINISHED);
+                if (this instanceof ToolCallAgent toolCallAgent) {
+                    String thinkResult = toolCallAgent.getLastThinkResult();
+                    if (thinkResult != null && !thinkResult.isBlank()) {
+                        return thinkResult;
+                    }
+                }
                 return "思考完成 - 无需行动";
             }
             // 再行动

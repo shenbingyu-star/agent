@@ -61,98 +61,59 @@ const addMessage = (content, isUser, type = '') => {
   })
 }
 
-// 发送消息
-const sendMessage = (message) => {
-  addMessage(message, true, 'user-question')
-  
-  // 连接SSE
+const finishChat = (aiMessageIndex) => {
+  connectionStatus.value = 'disconnected'
   if (eventSource) {
     eventSource.close()
   }
+  const aiMessage = messages.value[aiMessageIndex]
+  if (aiMessage && !aiMessage.content?.trim()) {
+    aiMessage.content = '没有生成有效回复。请在 IDEA 中重启 Java 后端后再试。'
+    aiMessage.type = 'ai-error'
+  }
+}
+
+const isInternalStepLog = (data) => {
+  if (data == null || data === '[DONE]') return true
+  const text = data.trim()
+  if (!text) return false
+  if (text.includes('思考完成 - 无需行动')) return true
+  if (/^Step\s*\d+:/.test(text)) return true
+  if (text.startsWith('工具 ') && text.includes('返回的结果')) return true
+  if (text.includes('工具 doTerminate')) return true
+  if (text.startsWith('执行结束：达到最大步骤')) return true
+  return false
+}
+
+// 发送消息（与恋爱大师相同：同一条 AI 气泡内追加流式片段）
+const sendMessage = (message) => {
+  addMessage(message, true)
   
-  // 设置连接状态
+  if (eventSource) {
+    eventSource.close()
+  }
+
+  const aiMessageIndex = messages.value.length
+  addMessage('', false)
   connectionStatus.value = 'connecting'
-  
-  // 临时存储
-  let messageBuffer = []; // 用于存储SSE消息的缓冲区
-  let lastBubbleTime = Date.now(); // 上一个气泡的创建时间
-  let isFirstResponse = true; // 是否是第一次响应
-  
-  const chineseEndPunctuation = ['。', '！', '？', '…']; // 中文句子结束标点
-  const minBubbleInterval = 800; // 气泡最小间隔时间(毫秒)
-  
-  // 创建消息气泡的函数
-  const createBubble = (content, type = 'ai-answer') => {
-    if (!content.trim()) return;
-    
-    // 添加适当的延迟，使消息显示更自然
-    const now = Date.now();
-    const timeSinceLastBubble = now - lastBubbleTime;
-    
-    if (isFirstResponse) {
-      // 第一条消息立即显示
-      addMessage(content, false, type);
-      isFirstResponse = false;
-    } else if (timeSinceLastBubble < minBubbleInterval) {
-      // 如果与上一气泡间隔太短，添加一个延迟
-      setTimeout(() => {
-        addMessage(content, false, type);
-      }, minBubbleInterval - timeSinceLastBubble);
-    } else {
-      // 正常添加消息
-      addMessage(content, false, type);
-    }
-    
-    lastBubbleTime = now;
-    messageBuffer = []; // 清空缓冲区
-  };
-  
   eventSource = chatWithManus(message)
   
-  // 监听SSE消息
   eventSource.onmessage = (event) => {
     const data = event.data
-    
-    if (data && data !== '[DONE]') {
-      messageBuffer.push(data);
-      
-      // 检查是否应该创建新气泡
-      const combinedText = messageBuffer.join('');
-      
-      // 句子结束或消息长度达到阈值
-      const lastChar = data.charAt(data.length - 1);
-      const hasCompleteSentence = chineseEndPunctuation.includes(lastChar) || data.includes('\n\n');
-      const isLongEnough = combinedText.length > 40;
-      
-      if (hasCompleteSentence || isLongEnough) {
-        createBubble(combinedText);
+    if (data && data !== '[DONE]' && !isInternalStepLog(data)) {
+      if (aiMessageIndex < messages.value.length) {
+        messages.value[aiMessageIndex].content += data
       }
     }
     
     if (data === '[DONE]') {
-      // 如果还有未显示的内容，创建最后一个气泡
-      if (messageBuffer.length > 0) {
-        const remainingContent = messageBuffer.join('');
-        createBubble(remainingContent, 'ai-final');
-      }
-      
-      // 完成后关闭连接
-      connectionStatus.value = 'disconnected'
-      eventSource.close()
+      finishChat(aiMessageIndex)
     }
   }
   
-  // 监听SSE错误
   eventSource.onerror = (error) => {
     console.error('SSE Error:', error)
-    connectionStatus.value = 'error'
-    eventSource.close()
-    
-    // 如果出错时有未显示的内容，也创建气泡
-    if (messageBuffer.length > 0) {
-      const remainingContent = messageBuffer.join('');
-      createBubble(remainingContent, 'ai-error');
-    }
+    finishChat(aiMessageIndex)
   }
 }
 

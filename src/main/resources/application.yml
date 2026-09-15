@@ -11,8 +11,7 @@ spring:
   ai:
     dashscope:
       # 需要替换为你自己的 key
-      api-key: sk-ws-H.RXRYEEY.wK9K.MEUCIQDqkuE0DviortCuJ2CHAFWR42BKpga86oL-GJYaVkdL5QIgcBQ5f1FvHTuw7u4RNYKB1oR6EvpYGE9_xsgfvOcxdo8
-#      workspace-id: ws-b1gnoiod5lj5z9er
+      api-key: 你自己的 key
       chat:
         options:
           model: qwen-plus
@@ -23,22 +22,11 @@ spring:
 # 临时注释掉，便于大家开发调试和部署（实际需要启动 MCP 服务）
     mcp:
       client:
+#        request-timeout: 300000
 #        sse:
 #          connections:
 #            server1:
 #              url: http://localhost:8127
-#        ,
-#        "yu-image-search-mcp-server": {
-#          "command": "java",
-#          "args": [
-#            "-Dspring.ai.mcp.server.stdio=true",
-#            "-Dspring.main.web-application-type=none",
-#            "-Dlogging.pattern.console=",
-#            "-jar",
-#            "yu-image-search-mcp-server/target/yu-image-search-mcp-server-0.0.1-SNAPSHOT.jar"
-#          ],
-#          "env": { }
-#        }
         stdio:
           servers-configuration: classpath:mcp-servers.json
 # 临时注释掉，便于大家开发调试和部署（实际需要启动 PgVector 数据库）
@@ -72,8 +60,8 @@ knife4j:
 # searchAPI
 search-api:
   # 需要替换为你自己的 key
-  api-key: E5h21DJYVCfBjExX3QaY5Ptg
+  api-key: 你自己的 key
 # 修改日志级别，查看 Spring AI 更多调用细节
-logging:
-  level:
-    org.springframework.ai: DEBUG
+#logging:
+#  level:
+#    org.springframework.ai: DEBUG

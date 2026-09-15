@@ -32,16 +32,12 @@ public class MyLoggerAdvisor implements CallAdvisor, StreamAdvisor {
 	}
 
 	private ChatClientRequest before(ChatClientRequest request) {
-		if (LOGGED.compareAndSet(false, true)) {  // 只打印一次
 			log.info("AI Request: {}", request.prompt());
-		}
 		return request;
 	}
 
 	private void observeAfter(ChatClientResponse chatClientResponse) {
-		if (LOGGED.compareAndSet(false, true)) {  // 只打印一次
 			log.info("AI Response: {}", chatClientResponse.chatResponse().getResult().getOutput().getText());
-		}
 	}
 
 	@Override

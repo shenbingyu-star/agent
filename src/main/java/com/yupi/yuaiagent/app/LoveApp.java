@@ -219,7 +219,7 @@ public class LoveApp {
                 .call()
                 .chatResponse();
         String content = chatResponse.getResult().getOutput().getText();
-//        log.info("content: {}", content);
+        log.info("content: {}", content);
         return content;
     }
 }

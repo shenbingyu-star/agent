@@ -133,8 +133,10 @@ public abstract class BaseAgent {
                     String stepResult = step();
                     String result = "Step " + stepNumber + ": " + stepResult;
                     results.add(result);
-                    // 输出当前每一步的结果到 SSE
-                    sseEmitter.send(result);
+                    if (StrUtil.isNotBlank(stepResult)
+                            && !"思考完成 - 无需行动".equals(stepResult.trim())) {
+                        streamToClient(sseEmitter, stepResult);
+                    }
                 }
                 // 检查是否超出步骤限制
                 if (currentStep >= maxSteps) {
@@ -142,6 +144,7 @@ public abstract class BaseAgent {
                     results.add("Terminated: Reached max steps (" + maxSteps + ")");
                     sseEmitter.send("执行结束：达到最大步骤（" + maxSteps + "）");
                 }
+                sseEmitter.send("[DONE]");
                 // 正常完成
                 sseEmitter.complete();
             } catch (Exception e) {
@@ -188,5 +191,24 @@ public abstract class BaseAgent {
      */
     protected void cleanup() {
         // 子类可以重写此方法来清理资源
+    }
+
+    /**
+     * 按小片段推送，前端同一气泡内追加，效果接近恋爱大师的流式输出
+     */
+    private void streamToClient(SseEmitter sseEmitter, String text) throws IOException {
+        int[] codePoints = text.codePoints().toArray();
+        int index = 0;
+        while (index < codePoints.length) {
+            int count = Math.min(3, codePoints.length - index);
+            sseEmitter.send(new String(codePoints, index, count));
+            index += count;
+            try {
+                Thread.sleep(16);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                break;
+            }
+        }
     }
 }

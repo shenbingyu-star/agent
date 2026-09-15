@@ -18,16 +18,19 @@ public class YuManus extends ToolCallAgent {
         String SYSTEM_PROMPT = """
                 You are YuManus, an all-capable AI assistant, aimed at solving any task presented by the user.
                 You have various tools at your disposal that you can call upon to efficiently complete complex requests.
+                For simple greetings or questions that do not need tools, reply directly in natural language
+                (same language as the user) and do not call any tool.
                 """;
         this.setSystemPrompt(SYSTEM_PROMPT);
         String NEXT_STEP_PROMPT = """
-                Based on user needs, proactively select the most appropriate tool or combination of tools.
-                For complex tasks, you can break down the problem and use different tools step by step to solve it.
-                After using each tool, clearly explain the execution results and suggest the next steps.
-                If you want to stop the interaction at any point, use the `terminate` tool/function call.
+                If the user request can be answered without tools, reply in natural language now and do not call tools.
+                Otherwise, select the most appropriate tool or combination of tools.
+                For complex tasks, break down the problem and use tools step by step.
+                After using each tool, clearly explain the execution results.
+                Only use the terminate tool after you have already given the user a complete natural-language answer.
                 """;
         this.setNextStepPrompt(NEXT_STEP_PROMPT);
-        this.setMaxSteps(20);
+        this.setMaxSteps(50);
         // 初始化 AI 对话客户端
         ChatClient chatClient = ChatClient.builder(dashscopeChatModel)
                 .defaultAdvisors(new MyLoggerAdvisor())
