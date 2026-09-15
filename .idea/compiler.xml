@@ -7,19 +7,142 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="forum" />
-        <module name="deepseek" />
-        <module name="Ticket01" />
-        <module name="Hello1" />
-        <module name="demo" />
+        <module name="atmosphere-spring-boot-rag-chat" />
+        <module name="atmosphere-koog" />
+        <module name="atmosphere-integration-tests" />
+        <module name="springboot-demo" />
+        <module name="atmosphere-checkpoint" />
+        <module name="atmosphere-grpc" />
+        <module name="atmosphere-agent" />
+        <module name="atmosphere-wasync" />
+        <module name="atmosphere-spring-boot-multi-agent-startup-team" />
+        <module name="atmosphere-embabel" />
         <module name="demo2" />
+        <module name="atmosphere-spring-boot-koog-chat" />
+        <module name="Hello1" />
+        <module name="atmosphere-kafka" />
+        <module name="atmosphere-langchain4j" />
+        <module name="atmosphere-spring-boot-mcp-server" />
+        <module name="atmosphere-durable-sessions-sqlite" />
+        <module name="atmosphere-spring-boot-channels-chat" />
+        <module name="atmosphere-quarkus-chat" />
+        <module name="atmosphere-spring-boot-starter" />
+        <module name="atmosphere-spring-boot-ai-chat" />
+        <module name="atmosphere-spring-boot-dentist-agent" />
+        <module name="atmosphere-coordinator" />
+        <module name="atmosphere-kotlin" />
+        <module name="atmosphere-runtime" />
+        <module name="atmosphere-a2a" />
+        <module name="atmosphere-ai" />
+        <module name="atmosphere-spring-boot-orchestration-demo" />
+        <module name="atmosphere-rag" />
+        <module name="demo" />
+        <module name="atmosphere-mcp" />
+        <module name="atmosphere-spring-boot-chat" />
+        <module name="atmosphere-spring-boot-durable-sessions" />
+        <module name="atmosphere-ai-test" />
+        <module name="atmosphere-spring-boot-ai-tools" />
+        <module name="atmosphere-spring-boot-otel-chat" />
+        <module name="atmosphere-adk" />
+        <module name="atmosphere-spring-boot-a2a-agent" />
+        <module name="deepseek" />
+        <module name="atmosphere-durable-sessions-redis" />
+        <module name="atmosphere-admin" />
+        <module name="atmosphere-protocol-common" />
+        <module name="atmosphere-spring-boot3-starter" />
+        <module name="atmosphere-spring-boot-checkpoint-agent" />
+        <module name="atmosphere-redis" />
+        <module name="atmosphere-spring-ai" />
+        <module name="atmosphere-durable-sessions" />
+        <module name="atmosphere-spring-boot-ai-classroom" />
+        <module name="Ticket01" />
+        <module name="atmosphere-agui" />
+        <module name="atmosphere-channels" />
+        <module name="atmosphere-spring-boot-agui-chat" />
+      </profile>
+      <profile name="Annotation profile for atmosphere-project" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/io/quarkus/quarkus-extension-processor/3.31.3/quarkus-extension-processor-3.31.3.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/org/jboss/jdeparser/jdeparser/2.0.3.Final/jdeparser-2.0.3.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/org/jsoup/jsoup/1.15.3/jsoup-1.15.3.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/com/github/javaparser/javaparser-core/3.28.0/javaparser-core-3.28.0.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/com/fasterxml/jackson/core/jackson-databind/2.20.1/jackson-databind-2.20.1.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/com/fasterxml/jackson/core/jackson-annotations/2.20/jackson-annotations-2.20.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/com/fasterxml/jackson/core/jackson-core/2.20.1/jackson-core-2.20.1.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.20.1/jackson-dataformat-yaml-2.20.1.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/org/yaml/snakeyaml/2.4/snakeyaml-2.4.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.20.1/jackson-module-parameter-names-2.20.1.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/io/quarkus/quarkus-bootstrap-app-model/3.31.3/quarkus-bootstrap-app-model-3.31.3.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/org/junit/jupiter/junit-jupiter/6.0.2/junit-jupiter-6.0.2.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/org/junit/jupiter/junit-jupiter-api/6.0.2/junit-jupiter-api-6.0.2.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/org/junit/platform/junit-platform-commons/6.0.2/junit-platform-commons-6.0.2.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/org/junit/jupiter/junit-jupiter-params/6.0.2/junit-jupiter-params-6.0.2.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/org/junit/jupiter/junit-jupiter-engine/6.0.2/junit-jupiter-engine-6.0.2.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/org/junit/platform/junit-platform-engine/6.0.2/junit-platform-engine-6.0.2.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/org/asciidoctor/asciidoctorj/3.0.0/asciidoctorj-3.0.0.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/org/asciidoctor/asciidoctorj-api/3.0.0/asciidoctorj-api-3.0.0.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/org/jruby/jruby/9.4.8.0/jruby-9.4.8.0.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/org/jruby/jruby-base/9.4.8.0/jruby-base-9.4.8.0.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/org/ow2/asm/asm/9.2/asm-9.2.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/org/ow2/asm/asm-util/9.2/asm-util-9.2.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/com/github/jnr/jnr-netdb/1.2.0/jnr-netdb-1.2.0.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/com/github/jnr/jnr-enxio/0.32.17/jnr-enxio-0.32.17.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/com/github/jnr/jnr-constants/0.10.4/jnr-constants-0.10.4.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/com/github/jnr/jnr-unixsocket/0.38.22/jnr-unixsocket-0.38.22.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/com/github/jnr/jnr-posix/3.1.19/jnr-posix-3.1.19.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/com/github/jnr/jnr-ffi/2.2.16/jnr-ffi-2.2.16.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/com/github/jnr/jffi/1.3.13/jffi-1.3.13.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/com/github/jnr/jffi/1.3.13/jffi-1.3.13-native.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/com/github/jnr/jnr-a64asm/1.0.0/jnr-a64asm-1.0.0.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/com/github/jnr/jnr-x86asm/1.0.2/jnr-x86asm-1.0.2.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/org/jruby/joni/joni/2.2.1/joni-2.2.1.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/org/jruby/jcodings/jcodings/1.0.58/jcodings-1.0.58.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/org/jruby/dirgra/0.3/dirgra-0.3.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/com/headius/invokebinder/1.13/invokebinder-1.13.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/com/headius/options/1.6/options-1.6.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/org/jruby/jzlib/1.1.5/jzlib-1.1.5.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/joda-time/joda-time/2.12.7/joda-time-2.12.7.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/me/qmx/jitescript/jitescript/0.4.1/jitescript-0.4.1.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/com/headius/backport9/1.13/backport9-1.13.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/org/jruby/jruby-stdlib/9.4.8.0/jruby-stdlib-9.4.8.0.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/org/jboss/logmanager/jboss-logmanager/3.2.0.Final/jboss-logmanager-3.2.0.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/org/jboss/logging/jboss-logging/3.6.1.Final/jboss-logging-3.6.1.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/io/smallrye/common/smallrye-common-constraint/2.15.0/smallrye-common-constraint-2.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/io/smallrye/common/smallrye-common-cpu/2.15.0/smallrye-common-cpu-2.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/io/smallrye/common/smallrye-common-expression/2.15.0/smallrye-common-expression-2.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/io/smallrye/common/smallrye-common-function/2.15.0/smallrye-common-function-2.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/io/smallrye/common/smallrye-common-net/2.15.0/smallrye-common-net-2.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/io/smallrye/common/smallrye-common-os/2.15.0/smallrye-common-os-2.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/io/smallrye/common/smallrye-common-ref/2.15.0/smallrye-common-ref-2.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/jakarta/json/jakarta.json-api/2.1.3/jakarta.json-api-2.1.3.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/org/eclipse/parsson/parsson/1.1.7/parsson-1.1.7.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/com/karuslabs/elementary/3.0.0/elementary-3.0.0.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/io/quarkus/quarkus-builder/3.31.3/quarkus-builder-3.31.3.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/io/quarkus/quarkus-bootstrap-json/3.31.3/quarkus-bootstrap-json-3.31.3.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/org/wildfly/common/wildfly-common/2.0.1/wildfly-common-2.0.1.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/org/jboss/threads/jboss-threads/3.9.2/jboss-threads-3.9.2.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/io/smallrye/common/smallrye-common-annotation/2.14.0/smallrye-common-annotation-2.14.0.jar" />
+          <entry name="$PROJECT_DIR$/../../../Maven/mvn-repository/io/quarkus/quarkus-bom/3.31.3/quarkus-bom-3.31.3.pom" />
+        </processorPath>
+        <module name="atmosphere-quarkus-admin-extension-deployment" />
+        <module name="atmosphere-quarkus-extension-deployment" />
+        <module name="atmosphere-quarkus-extension" />
+        <module name="atmosphere-quarkus-admin-extension" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="a" target="17" />
       <module name="deepseek" target="17" />
       <module name="demo1" target="17" />
-      <module name="springboot-condition" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -27,11 +150,72 @@
       <module name="Hello1" options="-parameters" />
       <module name="Ticket01" options="-parameters" />
       <module name="a" options="-parameters" />
+      <module name="atmosphere-a2a" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-adk" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-admin" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-agent" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-agui" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-ai" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-ai-test" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-assembly" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-bom" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-channels" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-chat" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-checkpoint" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-coordinator" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-durable-sessions" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-durable-sessions-redis" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-durable-sessions-sqlite" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-embabel" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-grpc" options="-Xlint:all,-processing,-serial" />
+      <module name="atmosphere-grpc-chat" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-integration-tests" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-jetty-embedded-websocket" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-kafka" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-koog" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-kotlin" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-langchain4j" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-mcp" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-modules" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-project" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-protocol-common" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-quarkus-admin-extension" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-quarkus-admin-extension-deployment" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-quarkus-admin-extension-parent" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-quarkus-chat" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-quarkus-extension" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-quarkus-extension-deployment" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-quarkus-extension-parent" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-rag" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-redis" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-runtime" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-runtime-libs" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-spring-ai" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-spring-boot-a2a-agent" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-spring-boot-agui-chat" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-spring-boot-ai-chat" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-spring-boot-ai-classroom" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-spring-boot-ai-tools" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-spring-boot-channels-chat" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-spring-boot-chat" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-spring-boot-checkpoint-agent" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-spring-boot-dentist-agent" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-spring-boot-durable-sessions" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-spring-boot-koog-chat" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-spring-boot-mcp-server" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-spring-boot-multi-agent-startup-team" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-spring-boot-orchestration-demo" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-spring-boot-otel-chat" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-spring-boot-rag-chat" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-spring-boot-starter" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-spring-boot3-starter" options="-Xlint:all,-processing,-serial -Werror -parameters" />
+      <module name="atmosphere-wasync" options="-Xlint:all,-processing,-serial -Werror -parameters" />
       <module name="deepseek" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="demo1" options="-parameters" />
       <module name="demo2" options="-parameters" />
       <module name="springboot-condition" options="-parameters" />
+      <module name="springboot-demo" options="-parameters" />
     </option>
   </component>
 </project>

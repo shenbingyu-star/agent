@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="forum:war" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9785bc34-46a5-4311-8ff7-e50e929e22e2" name="Changes" comment="">
+    <list default="true" id="9785bc34-46a5-4311-8ff7-e50e929e22e2" name="Changes" comment="测试的源代码">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c94a267c-3083-4261-afb0-ef2919e149e4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c94a267c-3083-4261-afb0-ef2919e149e4/storage_v2/_src_/schema/forum1.MBdgtA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c94a267c-3083-4261-afb0-ef2919e149e4/storage_v2/_src_/schema/forum_db.XMS3HA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c94a267c-3083-4261-afb0-ef2919e149e4/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c94a267c-3083-4261-afb0-ef2919e149e4/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c94a267c-3083-4261-afb0-ef2919e149e4/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Demo1Application.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/config/AiConfig.java" afterDir="false" />
@@ -29,106 +44,13 @@
       <change afterPath="$PROJECT_DIR$/src/main/resources/static/order.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/static/viewport.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/Demo1ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../forum/forum/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/.idea/artifacts/springTest_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/.idea/copyright/First.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/Hello1/src/main/java/com/example/hello1/controller/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/sky-take-out/sky-server/src/main/java/com/example/skyserver/controller/admin/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/Test/Deque1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/Test/Match.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/Test/test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/Test/test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/W18/IDCardValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/solve/NQueens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/solve/cf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/spring01/W813.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/spring01/W87.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/AlternatePrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/Hello.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/NumberPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/Split.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/W81.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/W81ErFen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/W82.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/W82InPut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/W82Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/W83MyRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/W83MyRunnable2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/W83MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/W83Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/W86.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/W86Hash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/dfs1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/java/com/example/springstart/养青梅.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/resources/Hello.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/spring-start/src/main/resources/养青梅.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/springTest/src/main/java/com/example/springtest/controller/UserInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/springTest/src/main/java/com/example/springtest/controller/controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/springTest/src/main/java/com/example/springtest/mapper/UserInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/springTest/src/main/java/com/example/springtest/mapper/mapper" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/springTest/src/main/java/com/example/springtest/model/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/springTest/src/main/java/com/example/springtest/model/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/springTest/src/main/java/com/example/springtest/service/UserInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/springTest/src/main/java/com/example/springtest/service/impl/UserInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/springTest/src/main/java/com/example/springtest/service/service" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/springTest/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot/springTest/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/config/WebConfig$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/config/WebConfig$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/config/WebConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/controller/AuthController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/controller/ForumController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/controller/ForumController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/controller/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/dao/CommentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/dao/CommentRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/dao/PostRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/dao/PostRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/dao/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/dao/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/model/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/model/Comment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/model/Post.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/model/Post.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/service/CommentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/service/CommentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/service/PostService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/classes/com/example/forum/service/PostService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/config/WebConfig$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/config/WebConfig$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/config/WebConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/controller/AuthController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/controller/ForumController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/controller/ForumController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/controller/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/dao/CommentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/dao/CommentRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/dao/PostRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/dao/PostRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/dao/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/dao/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/model/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/model/Comment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/model/Post.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/model/Post.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/service/CommentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/service/CommentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/service/PostService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/forum-1.0-SNAPSHOT/WEB-INF/classes/com/example/forum/service/PostService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/surefire-reports/2025-05-20T13-29-48_228.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/surefire-reports/TEST-com.example.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/surefire-reports/TEST-com.example.AppTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/surefire-reports/TEST-com.example.TestConnection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/surefire-reports/TEST-com.example.TestConnection.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/surefire-reports/com.example.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/surefire-reports/com.example.AppTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/surefire-reports/com.example.TestConnection.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/surefire-reports/com.example.TestConnection.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/test-classes/com/example/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/test-classes/com/example/AppTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/test-classes/com/example/PasswordEncryptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/test-classes/com/example/PasswordEncryptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/forum/target/test-classes/com/example/TestConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/forum/target/test-classes/com/example/TestConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot/a/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot/spring-start/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot/spring-start/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot/spring-start/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot/spring-start/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot/spring-start/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,20 +67,33 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../spring-boot" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="MavenRunConfiguration" name="Ticket01 [package]" />
-    </enabled-run-configurations>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "shenbingyu-star"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/shenbingyu-star/Test.git",
+    "accountId": "350788f4-84d4-4730-9553-c2ac467719e4"
+  }
+}]]></component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="customMavenHome" value="D:\Learning program\Maven\apache-maven-3.9.9" />
         <option name="localRepository" value="D:\Learning program\Maven\mvn-repository" />
-        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
         <option name="userSettingsFile" value="D:\Learning program\Maven\apache-maven-3.9.9\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -171,7 +106,7 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="340Nrpwpqv9F2ip27gtF3ua6itI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -180,11 +115,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AiChatApplication.executor": "Run",
     "Application.Demo1Application.executor": "Run",
+    "Application.Hello.executor": "Run",
     "Application.Hello1Application.executor": "Run",
+    "Application.Solution.executor": "Run",
     "Application.SpringTestApplication.executor": "Run",
+    "Application.TestConnection.executor": "Run",
     "Application.Ticket01Application.executor": "Run",
     "DefaultHtmlFileTemplate": "HTML File",
+    "JUnit.All in atmosphere-spring-boot-ai-chat.executor": "Run",
     "JUnit.Demo01ApplicationTests.executor": "Run",
     "JUnit.Demo01ApplicationTests.testHello.executor": "Run",
     "JUnit.Demo1ApplicationTests.Enbed.executor": "Run",
@@ -209,22 +149,30 @@
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.AiChatApplication.executor": "Run",
+    "Spring Boot.AiClassroomApplication.executor": "Run",
     "Spring Boot.Demo1Application.executor": "Run",
     "Spring Boot.Ticket01Application.executor": "Run",
-    "git-widget-placeholder": "my",
+    "Tomcat Server.forum.jsp.executor": "Run",
+    "Tomcat Server.login.jsp.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Learning program/IDEA/ID_Java/spring-boot/Hello1",
+    "last_opened_file_path": "D:/LearningProgram/IDEA/langchain",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
+    "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -249,123 +197,10 @@
       <set>
         <option value="KtorApplicationConfigurationType" />
         <option value="MicronautRunConfigurationType" />
-        <option value="QuarkusRunConfigurationType" />
-        <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Hello1Application">
-    <configuration name="Demo1Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.Demo1Application" />
-      <module name="demo2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Hello1Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.hello1.Hello1Application" />
-      <module name="Hello1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.hello1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ticket01Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.ticket01.Ticket01Application" />
-      <module name="Ticket01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.ticket01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo1ApplicationTests.testService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.Demo1ApplicationTests" />
-      <option name="METHOD_NAME" value="testService" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ticket01ApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Ticket01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.ticket01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.ticket01" />
-      <option name="MAIN_CLASS_NAME" value="com.example.ticket01.Ticket01ApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.a.AApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeepseekApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="deepseek" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.deepseek.DeepseekApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo1Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="demo1" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo1.Demo1Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="demo2" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.Demo1Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="demo" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springtest.SpringTestApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ticket01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="Ticket01" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ticket01.Ticket01Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.Demo1Application">
     <configuration default="true" type="tests" factoryName="Autodetect">
       <module name="demo1" />
       <option name="ENV_FILES" value="" />
@@ -402,34 +237,332 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="Demo1Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.Demo1Application" />
+      <module name="demo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.hello1.Solution" />
+      <module name="Hello1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.hello1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringTestApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.springtest.SpringTestApplication" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.TestConnection" />
+      <module name="forum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="atmosphere-quarkus-chat" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
+      <module name="atmosphere-quarkus-chat" />
+      <QsMavenRunConfiguration>
+        <MavenSettings>
+          <option name="myGeneralSettings" />
+          <option name="myRunnerSettings" />
+          <option name="myRunnerParameters">
+            <MavenRunnerParameters>
+              <option name="cmdOptions" />
+              <option name="profiles">
+                <set />
+              </option>
+              <option name="goals">
+                <list>
+                  <option value="quarkus:dev" />
+                </list>
+              </option>
+              <option name="multimoduleDir" />
+              <option name="pomFileName" value="pom.xml" />
+              <option name="profilesMap">
+                <map />
+              </option>
+              <option name="projectsCmdOptionValues">
+                <list />
+              </option>
+              <option name="resolveToWorkspace" value="false" />
+              <option name="workingDirPath" value="$PROJECT_DIR$/../atmosphere-main/samples/quarkus-chat" />
+            </MavenRunnerParameters>
+          </option>
+        </MavenSettings>
+        <targetMavenLocalRepo />
+        <emulateTerminal>false</emulateTerminal>
+        <profile>dev</profile>
+      </QsMavenRunConfiguration>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="A2aAgentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="atmosphere-spring-boot-a2a-agent" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.atmosphere.samples.springboot.a2a.A2aAgentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="A2aStartupTeamApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="atmosphere-spring-boot-multi-agent-startup-team" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.atmosphere.samples.springboot.a2astartup.A2aStartupTeamApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.a.AApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AgUiChatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="atmosphere-spring-boot-agui-chat" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.atmosphere.samples.springboot.agui.AgUiChatApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AiChatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="atmosphere-spring-boot-ai-chat" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.atmosphere.samples.springboot.aichat.AiChatApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AiClassroomApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="atmosphere-spring-boot-ai-classroom" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.atmosphere.samples.springboot.aiclassroom.AiClassroomApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AiToolsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="atmosphere-spring-boot-ai-tools" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.atmosphere.samples.springboot.aitools.AiToolsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChannelsChatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="atmosphere-spring-boot-channels-chat" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.atmosphere.samples.channels.ChannelsChatApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="atmosphere-spring-boot-chat" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.atmosphere.samples.springboot.chat.ChatApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckpointAgentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="atmosphere-spring-boot-checkpoint-agent" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.atmosphere.samples.springboot.checkpoint.CheckpointAgentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeepseekApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="deepseek" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.deepseek.DeepseekApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo1Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo1.Demo1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springboot-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.Demo1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DentistAgentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="atmosphere-spring-boot-dentist-agent" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.atmosphere.samples.springboot.dentist.DentistAgentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DurableSessionsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="atmosphere-spring-boot-durable-sessions" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.atmosphere.samples.springboot.durable.DurableSessionsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hello1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Hello1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.hello1.Hello1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KoogChatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="atmosphere-spring-boot-koog-chat" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.atmosphere.samples.springboot.koogchat.KoogChatApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="McpServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="atmosphere-spring-boot-mcp-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.atmosphere.samples.mcp.McpServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrchestrationDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="atmosphere-spring-boot-orchestration-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.atmosphere.samples.springboot.orchestration.OrchestrationDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OtelChatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="atmosphere-spring-boot-otel-chat" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.atmosphere.samples.springboot.otelchat.OtelChatApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RagChatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="atmosphere-spring-boot-rag-chat" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.atmosphere.samples.springboot.ragchat.RagChatApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springtest.SpringTestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ticket01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Ticket01" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ticket01.Ticket01Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="login.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.94" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/WEB-INF/views/login.jsp" />
+      <deployment>
+        <artifact name="forum:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/forum_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="cb78f6ce-154d-41db-acdb-53c54dd109e1" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="forum:war" />
+        </option>
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Hello1Application" />
-      <item itemvalue="Application.Demo1Application" />
-      <item itemvalue="Application.Ticket01Application" />
-      <item itemvalue="JUnit.Ticket01ApplicationTests" />
-      <item itemvalue="JUnit.Demo1ApplicationTests.testService" />
+      <item itemvalue="Quarkus.atmosphere-quarkus-chat" />
+      <item itemvalue="Spring Boot.A2aAgentApplication" />
+      <item itemvalue="Spring Boot.A2aStartupTeamApplication" />
+      <item itemvalue="Spring Boot.AgUiChatApplication" />
+      <item itemvalue="Spring Boot.AiChatApplication" />
+      <item itemvalue="Spring Boot.AiClassroomApplication" />
+      <item itemvalue="Spring Boot.AiToolsApplication" />
+      <item itemvalue="Spring Boot.ChannelsChatApplication" />
+      <item itemvalue="Spring Boot.ChatApplication" />
+      <item itemvalue="Spring Boot.CheckpointAgentApplication" />
+      <item itemvalue="Spring Boot.DentistAgentApplication" />
+      <item itemvalue="Spring Boot.DurableSessionsApplication" />
+      <item itemvalue="Spring Boot.Hello1Application" />
+      <item itemvalue="Spring Boot.KoogChatApplication" />
+      <item itemvalue="Spring Boot.McpServerApplication" />
+      <item itemvalue="Spring Boot.OrchestrationDemoApplication" />
+      <item itemvalue="Spring Boot.OtelChatApplication" />
+      <item itemvalue="Spring Boot.RagChatApplication" />
       <item itemvalue="Spring Boot.Ticket01Application" />
       <item itemvalue="Spring Boot.DeepseekApplication" />
       <item itemvalue="Spring Boot.AApplication" />
       <item itemvalue="Spring Boot.Demo1Application" />
       <item itemvalue="Spring Boot.Demo1Application (1)" />
       <item itemvalue="Spring Boot.SpringTestApplication" />
+      <item itemvalue="Tomcat 服务器.login.jsp" />
+      <item itemvalue="应用程序.Demo1Application" />
+      <item itemvalue="应用程序.Solution" />
+      <item itemvalue="应用程序.SpringTestApplication" />
+      <item itemvalue="应用程序.TestConnection" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Hello1Application" />
-        <item itemvalue="Application.Ticket01Application" />
-        <item itemvalue="JUnit.Ticket01ApplicationTests" />
-        <item itemvalue="Application.Demo1Application" />
-        <item itemvalue="JUnit.Demo1ApplicationTests.testService" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+        <option value="bundled-jdk-30f59d01ecdd-34e2839f716b-intellij.indexing.shared.core-IU-262.9437.185" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.9437.185" />
       </set>
     </attachedChunks>
   </component>
@@ -468,12 +601,45 @@
       <workItem from="1763812883150" duration="1841000" />
       <workItem from="1765538735911" duration="3906000" />
       <workItem from="1765549777017" duration="1062000" />
-      <workItem from="1765627610906" duration="1867000" />
+      <workItem from="1765627610906" duration="5322000" />
+      <workItem from="1766827276067" duration="753000" />
+      <workItem from="1766828142128" duration="4038000" />
+      <workItem from="1769080401484" duration="1924000" />
+      <workItem from="1775639849393" duration="8582000" />
+      <workItem from="1775881598283" duration="22852000" />
+      <workItem from="1776086772730" duration="5166000" />
+      <workItem from="1777202018378" duration="1472000" />
+      <workItem from="1777264556568" duration="5868000" />
+      <workItem from="1778237001773" duration="1214000" />
+      <workItem from="1779367781169" duration="2641000" />
+      <workItem from="1782042512755" duration="23000" />
+      <workItem from="1782975978345" duration="1847000" />
     </task>
+    <task id="LOCAL-00001" summary="测试的源代码">
+      <option name="closed" value="true" />
+      <created>1765673710913</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765673710913</updated>
+    </task>
+    <task id="LOCAL-00002" summary="测试的源代码">
+      <option name="closed" value="true" />
+      <created>1765674063184</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1765674063184</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="测试的源代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试的源代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -485,5 +651,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

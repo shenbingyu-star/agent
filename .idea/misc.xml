@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file url="file://$PROJECT_DIR$/../atmosphere-main/samples/chat/overlays" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -14,13 +17,22 @@
         <option value="$PROJECT_DIR$/../deepseek/pom.xml" />
         <option value="$PROJECT_DIR$/../Test/Ticket01/pom.xml" />
         <option value="$PROJECT_DIR$/../spring-boot/Hello1/pom.xml" />
+        <option value="$PROJECT_DIR$/../atmosphere-main/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/../atmosphere-main/assembly/cpr/pom.xml" />
+        <option value="$PROJECT_DIR$/../atmosphere-main/assembly/pom.xml" />
+        <option value="$PROJECT_DIR$/../atmosphere-main/bom/pom.xml" />
+        <option value="$PROJECT_DIR$/../atmosphere-main/pom.xml" />
+        <option value="$PROJECT_DIR$/../atmosphere-main/samples/chat/pom.xml" />
+        <option value="$PROJECT_DIR$/../atmosphere-main/samples/embedded-jetty-websocket-chat/pom.xml" />
+        <option value="$PROJECT_DIR$/../atmosphere-main/samples/grpc-chat/pom.xml" />
         <option value="$PROJECT_DIR$/../deepseek/pom.xml" />
         <option value="$PROJECT_DIR$/../demo/demo1/pom.xml" />
         <option value="$PROJECT_DIR$/../demo/springboot-condition/pom.xml" />
+        <option value="$PROJECT_DIR$/../forum/forum/pom.xml" />
         <option value="$PROJECT_DIR$/../spring-boot/a/pom.xml" />
       </set>
     </option>

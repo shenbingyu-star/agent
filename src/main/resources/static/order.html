@@ -1,0 +1,225 @@
+<!-- templates/order.html -->
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>退票订单管理</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #a314cb;
+            --primary-light: #9d50bb;
+            --bg: #f5f5f5;
+            --card-bg: #ffffff;
+            --text: #2d3748;
+            --text-light: #718096;
+            --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+            --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+            --radius: 12px;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            padding: 20px;
+            color: var(--text);
+        }
+
+        h2 {
+            text-align: center;
+            color: var(--primary);
+        }
+
+        form {
+            width: 90%;
+            margin: 20px auto;
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-md);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: center;
+        }
+
+        input[type="text"], input[type="date"], select {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            width: 180px;
+            font-size: 14px;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 24px;
+            background: linear-gradient(135deg, var(--primary), var(--primary-light));
+            color: white;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        button:hover {
+            opacity: 0.9;
+            transform: translateY(-1px);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        table {
+            width: 90%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            box-shadow: var(--shadow-md);
+            background-color: var(--card-bg);
+            border-radius: var(--radius);
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 12px 16px;
+            border-bottom: 1px solid #eee;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        th {
+            background-color: var(--primary);
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #fafafa;
+        }
+
+        tr:hover {
+            background-color: #f1e8f7;
+        }
+    </style>
+</head>
+<body>
+<h2>退票订单列表</h2>
+
+<form id="orderForm">
+    <input type="hidden" id="orderId">
+    <input type="text" id="orderNumber" placeholder="订单号" required>
+    <input type="text" id="userName" placeholder="用户名" required>
+    <input type="text" id="departure" placeholder="出发地" required>
+    <input type="text" id="destination" placeholder="目的地" required>
+    <input type="date" id="travelDate" required>
+    <select id="refunded">
+        <option value="false">未退票</option>
+        <option value="true">已退票</option>
+    </select>
+    <button type="submit">保存订单</button>
+    <button type="button" onclick="resetForm()">清空</button>
+</form>
+
+<table>
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>订单号</th>
+        <th>用户名</th>
+        <th>出发地</th>
+        <th>目的地</th>
+        <th>出发日期</th>
+        <th>是否退票</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody id="orderBody">
+    <tr><td colspan="8">加载中...</td></tr>
+    </tbody>
+</table>
+
+<script>
+    function loadOrders() {
+        // 默认是调用查询方法
+        fetch("/orders")
+            .then(res => res.json())
+            .then(data => {
+                if (data.length === 0) {
+                    document.getElementById("orderBody").innerHTML = '<tr><td colspan="8">暂无订单数据</td></tr>';
+                    return;
+                }
+                let html = data.map(o => `<tr>
+                    <td>${o.id}</td>
+                    <td>${o.orderNumber}</td>
+                    <td>${o.userName}</td>
+                    <td>${o.departure}</td>
+                    <td>${o.destination}</td>
+                    <td>${o.travelDate}</td>
+                    <td>${o.refunded ? '是' : '否'}</td>
+                    <td>
+                        <button onclick='editOrder(${JSON.stringify(o)})'>编辑</button>
+                        <button onclick='deleteOrder(${o.id})'>删除</button>
+                    </td>
+                </tr>`).join('');
+                document.getElementById("orderBody").innerHTML = html;
+            })
+            .catch(err => {
+                document.getElementById("orderBody").innerHTML = '<tr><td colspan="8">加载失败，请稍后再试</td></tr>';
+                console.error(err);
+            });
+    }
+
+    document.getElementById("orderForm").addEventListener("submit", function (e) {
+        e.preventDefault();
+        const id = document.getElementById("orderId").value;
+        const data = {
+            id: id || null,
+            orderNumber: document.getElementById("orderNumber").value,
+            userName: document.getElementById("userName").value,
+            departure: document.getElementById("departure").value,
+            destination: document.getElementById("destination").value,
+            travelDate: document.getElementById("travelDate").value,
+            refunded: document.getElementById("refunded").value === 'true'
+        };
+
+        // id存在表示修改,id不存在表示添加
+
+        fetch("/orders", {
+            method: id ? "PUT" : "POST",
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(data)
+        })
+            .then(() => {
+                resetForm();
+                loadOrders();
+            });
+    });
+
+    function editOrder(order) {
+        document.getElementById("orderId").value = order.id;
+        document.getElementById("orderNumber").value = order.orderNumber;
+        document.getElementById("userName").value = order.userName;
+        document.getElementById("departure").value = order.departure;
+        document.getElementById("destination").value = order.destination;
+        document.getElementById("travelDate").value = order.travelDate;
+        document.getElementById("refunded").value = order.refunded ? 'true' : 'false';
+    }
+
+    // 删除数据需要确保数据存在 还有该订单的id
+    function deleteOrder(id) {
+        if (!confirm("确认删除该订单？")) return;
+        fetch(`/orders/${id}`, {
+            method: "DELETE"
+        })
+            .then(() => loadOrders());
+    }
+
+    function resetForm() {
+        document.getElementById("orderId").value = "";
+        document.getElementById("orderForm").reset();
+    }
+
+    loadOrders();
+</script>
+</body>
+</html>
